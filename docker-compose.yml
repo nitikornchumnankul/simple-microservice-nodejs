@@ -8,7 +8,7 @@ services:
         build: ./serviceA
         ports: 
             - "9002:9000"
-     ServiceB:
+    ServiceB:
         build: ./serviceB
         ports: 
             - "9003:9000"
