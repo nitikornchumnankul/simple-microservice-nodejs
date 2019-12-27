@@ -4,12 +4,11 @@ services:
         build: ./default
         ports: 
             - "8080:9000"
-    Service_a:
-
+    service_a:
         build: ./serviceA
         ports: 
             - "8081:9000"
-    Service_b:
+    service_b:
         build: ./serviceB
         ports: 
             - "8082:9000"
