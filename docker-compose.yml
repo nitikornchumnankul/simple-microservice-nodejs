@@ -5,6 +5,7 @@ services:
         ports: 
             - "8080:9000"
     Service_a:
+
         build: ./serviceA
         ports: 
             - "8081:9000"
@@ -13,3 +14,4 @@ services:
         ports: 
             - "8082:9000"
     
+
