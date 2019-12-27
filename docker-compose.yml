@@ -1,0 +1,15 @@
+version: '3'
+services: 
+    default:
+        build: ./default
+        ports: 
+            - "9001:9000"
+    ServiceA:
+        build: ./serviceA
+        ports: 
+            - "9002:9000"
+     ServiceB:
+        build: ./serviceB
+        ports: 
+            - "9003:9000"
+    
