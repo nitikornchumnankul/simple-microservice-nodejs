@@ -1,19 +1,6 @@
 # !/bin/bash
 # gcloud container clusters get-credentials standard-cluster-1 --zone us-central1-a --project black-anagram-259815
 # ENV
-GCP_PROJECT="black-anagram-259815"
-PROJECT_ID="black-anagram-259815"
-DOMAIN="kongtelalug.com"
-compute_region="us-central1" 
-compute_zone="us-central1-a"
-dns_name="kongtelalug.com."
-slack_webhook=""
-slack_channel=""
-slack_user=""
-grafana_user="nitikorn"
-grafana_password="123456"
-email="nitikornproject1@gmail.com"
-
 gcloud config set project ${PROJECT_ID}
 
 # Set the default compute region and zone:
