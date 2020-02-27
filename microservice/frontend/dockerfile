@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 RUN apt-get update -y
 
-RUN apt-get install -y python-setuptools get telnet curl
+RUN apt-get install -y python-setuptools git telnet curl
 
 RUN easy_install pip
 
