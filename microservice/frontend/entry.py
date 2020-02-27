@@ -9,8 +9,8 @@ def index():
 
 @app.route("/add",methods=['POST'])
 def add() :
-    x = int(request.from['x'])
-    y = int(request.from['y'])
+    x = int(request.form['x'])
+    y = int(request.form['y'])
 
     my_calc_host = os.envirom['MY_CALC_SERVICE_SERVICE_HOST']
     my_calc_port = os.envirom['MY_CALC_SERVICE_SERVICE_PORT']
